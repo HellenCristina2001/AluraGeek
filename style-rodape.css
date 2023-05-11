@@ -1,0 +1,83 @@
+.contato {
+
+
+    background-color: #EAF2FD;
+
+}
+
+.contato {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo {
+
+    padding-top: 64px;
+    margin-left: 77px;
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding-bottom: 16px;
+    padding-top: 26px;
+
+}
+
+.informacao {
+
+    text-align: center;
+    font-size: 16px;
+}
+
+.form-control {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 26px;
+    border: none;
+}
+
+h5 {
+
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+
+}
+.nome {
+
+    width: 460px;
+    
+}
+
+.mensagem {
+
+    width: 460px;
+    
+}
+
+
+.enviar{
+
+    background-color: blue;
+    color: beige;
+}
+
+
+.criacao {
+
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}

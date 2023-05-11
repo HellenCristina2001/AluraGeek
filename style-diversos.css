@@ -1,0 +1,33 @@
+.variedade {
+
+
+  float: left;
+  width: 14%;
+
+
+
+}
+
+h4 {
+
+  font-size: 32px;
+  margin-left: 114px;
+  padding-top: 52px;
+
+
+}
+
+.diversos {
+
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+
+
+
+}
+
+.valor {
+
+  font-weight: bold
+}

@@ -1,0 +1,39 @@
+body {
+
+  background-color: #E5E5E5;
+  display: flex;
+}
+
+.produtos {
+
+
+  float: left;
+  width: 14%;
+
+
+
+}
+
+h2 {
+
+  font-size: 32px;
+  margin-left: 114px;
+  padding-top: 52px;
+
+
+}
+
+.row {
+
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+
+
+
+}
+
+.valor {
+
+  font-weight: bold
+}

@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  position: relative;
+
+}
+
+.banner {
+
+  max-width: 100%;
+
+}
+
+.container h1 {
+  position: absolute;
+  top: 105px;
+  text-align: left;
+  font-size: 40px;
+  color: white;
+  margin: 74px;
+
+}
+
+
+
+.container p {
+  position: absolute;
+  top: 145px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  margin: 74px;
+
+}
+
+.container button {
+
+  width: 16%;
+  position: absolute;
+  top: 174px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  background-color: #2A7AE4;
+  margin: 74px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}

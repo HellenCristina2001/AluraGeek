@@ -1,0 +1,33 @@
+.console {
+
+
+  float: left;
+  width: 14%;
+
+
+
+}
+
+h3 {
+
+  font-size: 32px;
+  margin-left: 114px;
+  padding-top: 52px;
+
+
+}
+
+.consoles {
+
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+
+
+
+}
+
+.valor {
+
+  font-weight: bold
+}
