@@ -1,7 +1,13 @@
 .descricao {
  
     color: blue;
-    text-align: center;
+    text-align: left;
     
 
+}
+
+.abas {
+
+    background-color: #E5E5E5;
+    border-color: grey;
 }
