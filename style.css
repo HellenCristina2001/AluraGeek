@@ -4,6 +4,8 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 16px;
+    max-width: 100%;
+    
 
 }
 
@@ -50,5 +52,78 @@ a {
 .tudo {
 
     color: blue;
-    margin-left: 1100px;
+    margin-left: 900px;
+    font-size: 32px;
 }
+
+h6 {
+
+    font-size: 42px;
+}
+
+@media screen and (min-width: 1200px)  {
+
+
+    header {
+
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 16px;
+        
+    
+    }
+    
+    .banner {
+    
+        width: 100%;
+    }
+    
+    .pesquisa {
+    
+        width: 35%;
+        background: #F5F5F5;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0.6;
+        border: none;
+        justify-content: space-around;
+    
+    }
+    
+    .botao__login {
+    
+        width: 60%;
+        border-radius: 4px 4px 4px 4px;
+        color: blue;
+        cursor: pointer;
+        border: none;
+    
+    
+    
+    }
+    
+    a {
+    
+        width: 20%;
+        border-radius: 4px 4px 4px 4px;
+        color: white;
+        cursor: pointer;
+        padding: 16px;
+    
+    }
+    
+    .tudo {
+    
+        color: blue;
+        margin-left: 1100px;
+        font-size: 18px;
+    }
+
+    h6{
+
+        font-size: 22px;
+    }
+
+} 

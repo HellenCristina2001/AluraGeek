@@ -4,15 +4,10 @@
 
 }
 
-.banner {
-
-  max-width: 100%;
-
-}
 
 .container h1 {
   position: absolute;
-  top: 105px;
+  top: 60px;
   text-align: left;
   font-size: 40px;
   color: white;
@@ -24,11 +19,12 @@
 
 .container p {
   position: absolute;
-  top: 145px;
+  top: 106px;
   text-align: left;
   font-size: 20px;
   color: white;
   margin: 74px;
+  font-size: 33px;
 
 }
 
@@ -36,7 +32,7 @@
 
   width: 16%;
   position: absolute;
-  top: 174px;
+  top: 144px;
   text-align: center;
   font-size: 22px;
   color: white;
@@ -44,4 +40,53 @@
   margin: 74px;
   border: none;
   border-radius: 5px 5px 5px 5px;
+}
+
+@media screen and (min-width: 1200px)  {
+
+  .container {
+    display: flex;
+    position: relative;
+  
+  }
+  
+  
+  .container h1 {
+    position: absolute;
+    top: 105px;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin: 74px;
+  
+  }
+  
+  
+  
+  .container p {
+    position: absolute;
+    top: 145px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    margin: 74px;
+  
+  
+  }
+  
+  .container button {
+  
+    width: 16%;
+    position: absolute;
+    top: 174px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    background-color: #2A7AE4;
+    margin: 74px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+
 }

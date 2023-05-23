@@ -2,7 +2,7 @@
 
 
   float: left;
-  width: 14%;
+  width: 18%;
 
 
 
@@ -11,7 +11,7 @@
 h3 {
 
   font-size: 32px;
-  margin-left: 114px;
+  margin-left: 70px;
   padding-top: 52px;
 
 
@@ -21,7 +21,7 @@ h3 {
 
   display: flex;
   justify-content: center;
-  margin: 12px;
+  margin: 22px;
 
 
 
@@ -31,3 +31,44 @@ h3 {
 
   font-weight: bold
 }
+
+@media screen and (min-width: 1200px)  {
+
+  .console {
+
+
+    float: left;
+    width: 14%;
+  
+  
+  
+  }
+  
+  h3 {
+  
+    font-size: 32px;
+    margin-left: 114px;
+    padding-top: 52px;
+  
+  
+  }
+  
+  .consoles {
+  
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+  
+  
+  
+  }
+  
+  .valor {
+  
+    font-weight: bold
+  }
+
+
+
+
+} 
