@@ -35,7 +35,6 @@ header {
 
 
 
-
 }
 
 a {
@@ -46,4 +45,10 @@ a {
     cursor: pointer;
     padding: 16px;
 
+}
+
+.tudo {
+
+    color: blue;
+    margin-left: 1100px;
 }
