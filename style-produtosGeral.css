@@ -1,0 +1,176 @@
+body {
+
+    background-color: #E5E5E5;
+    display: flex;
+  }
+  
+  .produtos {
+  
+  
+    float: left;
+    width: 18%;
+  
+  
+  
+  }
+  
+  .row {
+  
+    display: flex;
+    justify-content: center;
+    margin: 22px;
+  
+  
+  
+  }
+  
+  .valor {
+  
+    font-weight: bold
+  }
+
+  .console {
+
+
+    float: left;
+    width: 18%;
+  
+  
+  
+  }
+  
+  
+  .consoles {
+  
+    display: flex;
+    justify-content: center;
+    margin: 22px;
+  
+  
+  
+  }
+  
+  .valor {
+  
+    font-weight: bold
+  }
+
+  .variedade {
+
+
+    float: left;
+    width: 18%;
+  
+  
+  
+  }
+  
+
+  
+  .diversos {
+  
+    display: flex;
+    justify-content: center;
+    margin: 22px;
+  
+  
+  
+  }
+  
+  .valor {
+  
+    font-weight: bold
+  }
+  
+  @media screen and (min-width: 1200px)  {
+
+    .produtos {
+    
+    
+        float: left;
+        width: 14%;
+      
+      
+      
+      }
+      
+  
+      
+      .row {
+      
+        display: flex;
+        justify-content: center;
+        margin: 12px;
+      
+      
+      
+      }
+      
+      .valor {
+      
+        font-weight: bold
+      }
+  
+    .console {
+  
+  
+      float: left;
+      width: 14%;
+    
+    
+    
+    }
+    
+
+    
+    .consoles {
+    
+      display: flex;
+      justify-content: center;
+      margin: 12px;
+    
+    
+    
+    }
+  
+  
+    
+
+    .variedade {
+
+
+        float: left;
+        width: 14%;
+      
+      
+      
+      }
+      
+      h4 {
+      
+        font-size: 32px;
+        margin-left: 114px;
+        padding-top: 52px;
+      
+      
+      }
+      
+      .diversos {
+      
+        display: flex;
+        justify-content: center;
+        margin: 12px;
+      
+      
+      
+      }
+      
+      .valor {
+      
+        font-weight: bold
+      
+      }
+  
+  
+  } 
+

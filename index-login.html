@@ -11,20 +11,24 @@
 
 
 
+
+
     </head>
 
     <body>
 
         <header>
 
-            <div class="header">
-                <img src="logo.png" class="logo__imagem" alt="logo site alura">
-
-                <input class="barra" type="text" name="search" placeholder="O que deseja encontrar?">
-
-            
-
-            </div>
+            <img src="logo.png" class="imagem__logo" alt="logo site alura">
+    
+    
+            <input class="pesquisa" type="text" name="search" placeholder="O que deseja encontrar?"/>
+    
+    
+    
+    
+    
+        </header>
 
         </header>
 
@@ -36,9 +40,9 @@
 
                 <h7>Iniciar Sessão</h7>
 
-                <input type="email" name="email"  id="login"  placeholder="seu@email.com" />
-                <input type="password" name="password" id="senha" placeholder="Senha" required/>
-                <input type="submit" class="botao__entrar" onclick="logar(); return false"/>
+                <input type="email" name="email" id="login" placeholder="seu@email.com" />
+                <input type="password" name="password" id="senha" placeholder="Senha" required />
+                <input type="submit" class="botao__entrar" onclick="logar(); return false" />
 
 
 
@@ -46,17 +50,20 @@
             </div>
             <script>
 
-                function logar(){
+                
+
+
+                function logar() {
 
                     var login = document.getElementById('login').value;
                     var senha = document.getElementById('senha').value;
 
-                    if(login == 'admin@gmail.com' && senha == 'admin'){
+                    if (login == 'admin@gmail.com' && senha == 'admin') {
 
                         alert('Sucesso, você será redirecionado!!');
                         location.href = "admin.html";
- 
-                    }else{
+
+                    } else {
 
                         alert('usuario ou senha incorretos');
                     }
@@ -71,52 +78,53 @@
         </div>
 
         <section>
-        <div class="contato">
-
-            <div class="logo2">
-
-                <img src="logo.png" class="logo">
-            </div>
-            <div class="info">
-
-                <p class="informacao">Quem somos nós</p>
-                <br>
-                <p class="informacao">Política de privacidade</p>
-                <br>
-                <p class="informacao">Programa fidelidade</p>
-                <br>
-                <p class="informacao">Nossas lojas </p>
-                <br>
-                <p class="informacao">Quero ser franqueado</p>
-                <br>
-                <p class="informacao">Anuncie aqui</p>
-            </div>
-
             <div class="contato">
 
+                <div class="logo2">
+
+                    <img src="logo.png" class="logo">
+                </div>
+                <div class="info">
+
+                    <p class="informacao">Quem somos nós</p>
+                    <br>
+                    <p class="informacao">Política de privacidade</p>
+                    <br>
+                    <p class="informacao">Programa fidelidade</p>
+                    <br>
+                    <p class="informacao">Nossas lojas </p>
+                    <br>
+                    <p class="informacao">Quero ser franqueado</p>
+                    <br>
+                    <p class="informacao">Anuncie aqui</p>
+                </div>
+
+                <div class="contato">
 
 
-                <div class="form-control">
-                    <h5> Fale Conosco </h5>
+
+                    <div class="form-control">
+                        <h5> Fale Conosco </h5>
                         <br>
                         <label for="username">Nome</label>
-                        <input type="text" id="username" placeholder="Escreva seu nome" maxlength="40" class="nome" required>
+                        <input type="text" id="username" placeholder="Escreva seu nome" maxlength="40" class="nome"
+                            required>
 
                         <laber class="text" class="mensagem"> Mensagem </laber>
                         <textarea id="message " for="message " placeholder="Digite sua Mensagem" rows="5" cols="33"
                             minlength="1" maxlength="120" class="mensagem" required></textarea>
 
                         <button type="submit" value="enviar" class="enviar">Enviar</button>
-                    
 
 
+
+                    </div>
                 </div>
-            </div>
         </section>
-            <div class="criacao">
+        <div class="criacao">
 
-                <h6>Criado por Hellen Cristina 2023</h6>
-            </div>
+            <h6>Criado por Hellen Cristina 2023</h6>
+        </div>
 
     </body>
 </hmtl>

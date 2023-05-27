@@ -1,10 +1,12 @@
-.header {
+header {
 
     background-color: white;
     display: flex;
     justify-content: space-around;
     padding: 16px;
     max-width: 100%;
+    
+
 }
 
 .logo__imagem {
@@ -12,12 +14,16 @@
     margin-left: 146px;
 }
 
-.barra {
+.pesquisa {
 
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 22px;
+    width: 35%;
+    background: #F5F5F5;
     text-align: center;
-    max-width: 393px;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.6;
+    border: none;
+    justify-content: space-around;
 
 }
 
